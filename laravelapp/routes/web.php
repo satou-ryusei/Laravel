@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 Route::get('hello','HelloController@index');
+
+//実習問題
+Route::get('jissyu','jissyuController@index');
